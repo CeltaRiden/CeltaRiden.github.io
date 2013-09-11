@@ -1,0 +1,139 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+
+html,
+body,
+p,
+nav,
+ul,
+li {
+	margin:0;
+	padding:0;	
+}
+
+html{
+	
+	background-color: #465266;
+	background-repeat:no-repeat;
+	background-position:top left;
+	webkit-background-size: cover;
+	moz-background-size: cover;
+	o-background-size: cover;
+	background-size:cover;
+}
+
+p { 
+	color:#FFF;
+	font-family:Helvetica;
+	font-size:1rem;
+	line-height: 21px;
+	margin: 5% 0;
+}
+
+li {
+	list-style-type:none;
+	display:inline-block;
+	width:33%;
+	margin:0 auto;
+}
+
+#logo {
+	margin:0 auto;
+	padding:2rem;
+	display:table;
+	width:40%;
+}
+
+#logo img {
+	width:100%;
+}
+	
+#medialist {
+	padding:0;
+	display:table;
+	margin:0 auto;
+}
+
+#medialist a {
+	display:block;	
+}
+
+#about{ 
+	padding: 2rem;
+	clear:left;
+}
+	
+
+.connect {
+	display: block;
+	width: auto;
+	width:40%;
+}
+
+h1 {
+	color:white;
+	font-size:1.5em;
+	font-family:Helvetica;
+	margin:0;
+}
+
+h2 {
+	font-size:1.5rem;
+}
+
+.contact {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1rem;
+	color:#FFF;
+}
+
+.credit {
+	color:white;	
+}
+
+.credit a {
+	color:white;	
+}
+
+@media only screen and (min-width:40em) {
+	html {
+		background-image:url(../images/Celtaimage.jpg);
+	}
+	
+	
+	
+	#logo {
+		margin:0;
+		padding:2rem;
+		display:inline-block;
+		float:left;
+	
+	}
+	
+	#medialist {
+	
+		float:right;
+		padding:4rem 2rem 2rem 2rem;
+	}
+	
+	
+	#about{
+		position: relative;
+		width: 30%; 
+		margin-top: -3%;
+		display:inline-block;
+		float:right;
+		text-align:right;
+		clear:left;
+	}
+	
+	#logo {
+		width:auto;	
+	}
+}
+
+
+@media only screen and (min-width:190em) {
+}
