@@ -64,6 +64,10 @@ li {
 	padding: 2rem;
 	clear:left;
 }
+
+#about a {
+	color:white;	
+}
 	
 
 .connect {
